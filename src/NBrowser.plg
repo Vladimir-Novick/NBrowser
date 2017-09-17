@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NBrowser - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NBrowser.res" /d "NDEBUG" /d "_AFXDLL" "D:\NBrowser\NBrowser.rc"" 
+Creating temporary file "F:\DOCUME~1\VLADN~1.MER\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/NBrowser.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\NBrowser\ImageStatusBar.cpp"
+"D:\NBrowser\LeftView.cpp"
+"D:\NBrowser\MainFrm.cpp"
+"D:\NBrowser\NBrowser.cpp"
+"D:\NBrowser\NBrowserDoc.cpp"
+"D:\NBrowser\NBrowserView.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\VLADN~1.MER\LOCALS~1\Temp\RSP10.tmp" 
+Creating temporary file "F:\DOCUME~1\VLADN~1.MER\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/NBrowser.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\NBrowser\StdAfx.cpp"
+]
+Creating command line "cl.exe @F:\DOCUME~1\VLADN~1.MER\LOCALS~1\Temp\RSP11.tmp" 
+Creating temporary file "F:\DOCUME~1\VLADN~1.MER\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/NBrowser.pdb" /machine:I386 /out:"Release/NBrowser.exe" 
+.\Release\ImageStatusBar.obj
+.\Release\LeftView.obj
+.\Release\MainFrm.obj
+.\Release\NBrowser.obj
+.\Release\NBrowserDoc.obj
+.\Release\NBrowserView.obj
+.\Release\StdAfx.obj
+.\Release\NBrowser.res
+]
+Creating command line "link.exe @F:\DOCUME~1\VLADN~1.MER\LOCALS~1\Temp\RSP12.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ImageStatusBar.cpp
+LeftView.cpp
+MainFrm.cpp
+NBrowser.cpp
+NBrowserDoc.cpp
+NBrowserView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+NBrowser.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
